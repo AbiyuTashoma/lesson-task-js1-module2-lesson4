@@ -19,7 +19,7 @@ function startCounter() {
         clearInterval(countIntervalId);
 
         for (let i = 0; i < count; i++){
-            inputContainer.innerHTML += `<input value= "input ${i+1}"></input>`;
+            inputContainer.innerHTML += `<input value = "Input ${i+1}"></input>`;
         }
     }
     
